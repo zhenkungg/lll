@@ -9,6 +9,9 @@
 #import "NewSearchViewController.h"
 #import "SearchViewController.h"
 #import "FindDetailViewController.h"
+#import "EntryViewController.h"
+#import "BaseModel.h"
+
 
 @interface NewSearchViewController ()<UISearchBarDelegate>
 //搜索框
@@ -49,13 +52,13 @@
     
     [self searchBarSearchButtonClicked:self.searchBar];
 }
-//- (void)showTopicsDetail:(NSNotification *)not{
+- (void)showTopicsDetail:(NSNotification *)not{
 //    TopicsModel *model = not.object;
 //    EntryViewController *view = [[EntryViewController alloc]init];
 //    view.titl = model.title;
 //    view.topId = model._id;
 //    [self.navigationController pushViewController:view animated:YES];
-//}
+}
 - (void)showFindDetail:(NSNotification *)not{
     NSString *findID = not.object;
     FindDetailViewController *find = [[FindDetailViewController alloc]init];

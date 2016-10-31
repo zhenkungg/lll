@@ -21,7 +21,7 @@
 #import "TitleImageTableViewCell.h"
 
 #import "AdjustHeight.h"
-//#import "EntryViewController.h"
+#import "EntryViewController.h"
 #import "UIImageView+WebCache.h"
 #import "FindDetailViewController.h"
 #import "OtherFindDetailViewController.h"
@@ -392,12 +392,12 @@
 }
 
 
-//-(void)passKindID:(NSString *)kindID{
-//    self.kindID = kindID;
-//    EntryViewController *vc = [[EntryViewController alloc]init];
-//    vc.ID = self.kindID;
-//    [self.navigationController pushViewController:vc animated:YES];
-//}
+-(void)passKindID:(NSString *)kindID{
+    self.kindID = kindID;
+    EntryViewController *vc = [[EntryViewController alloc]init];
+    vc.ID = self.kindID;
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
