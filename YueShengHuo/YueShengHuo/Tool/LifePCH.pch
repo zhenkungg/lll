@@ -1,0 +1,36 @@
+//
+//  LifePCH.pch
+//  Life
+//
+//  Created by lanou on 16/5/24.
+//  Copyright © 2016年 Chen. All rights reserved.
+//
+
+#ifndef LifePCH_pch
+#define LifePCH_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
+
+#import "ConstantsDefine.h"
+#import "URLHeaderDefine.h"
+#import "URLRequestManager.h"
+#import "FMDB.h"
+#import "MBProgressHUD.h"
+#import "MJRefresh.h"
+#import "UIImageView+WebCache.h"
+//#import "SDWebImage/SDImageCache.h"
+#import "AdjustHeight.h"
+//#import "JT3DScrollView.h"
+#import "DataBaseBySelf.h"
+//#import "DataBaseModel.h"
+#import "NetWorkRequestManager.h"
+//#import "RTArealocationView.h"
+//#import "DDHNavigationControllerDelegate.h" 
+//#import "LaunchDemo.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* LifePCH_pch */

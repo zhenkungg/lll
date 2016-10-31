@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "cbee77fe-2c30-47c4-94e3-446c5bbdbb78++5775",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "cbee77fe-2c30-47c4-94e3-446c5bbdbb78++5775" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "cbee77fe-2c30-47c4-94e3-446c5bbdbb78++5775" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6A1B91A0-1F5C-4AF5-8970-2FC9F8C61ECB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "cbee77fe-2c30-47c4-94e3-446c5bbdbb78++5775" : "YueShengHuo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YueShengHuo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YueShengHuo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.svnchina.com\/svn\/maxs",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "cbee77fe-2c30-47c4-94e3-446c5bbdbb78++5775"
+    }
+  ]
+}

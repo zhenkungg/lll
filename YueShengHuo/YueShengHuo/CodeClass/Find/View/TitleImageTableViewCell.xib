@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="log" rowHeight="262" id="KGk-i7-Jjw" customClass="TitleImageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="299"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zad-lb-k1A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="299"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zad-lb-k1A" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9dI-81-rcT"/>
+                    <constraint firstItem="zad-lb-k1A" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Via-Ov-cF6"/>
+                    <constraint firstAttribute="bottom" secondItem="zad-lb-k1A" secondAttribute="bottom" id="sab-Sj-qEU"/>
+                    <constraint firstAttribute="trailing" secondItem="zad-lb-k1A" secondAttribute="trailing" id="xc7-Je-P0U"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="imageV" destination="zad-lb-k1A" id="4bD-Fg-J88"/>
+            </connections>
+            <point key="canvasLocation" x="78" y="247"/>
+        </tableViewCell>
+    </objects>
+</document>
