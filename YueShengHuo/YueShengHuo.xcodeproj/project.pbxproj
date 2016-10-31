@@ -148,6 +148,8 @@
 		3FE244BC1DC75F4D005230BF /* EntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE244BA1DC75F4D005230BF /* EntryViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		3FE244C21DC762EC005230BF /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE244C01DC762EC005230BF /* CategoryViewController.m */; settings = {ASSET_TAGS = (); }; };
 		3FE244C31DC762EC005230BF /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE244C11DC762EC005230BF /* CategoryViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		3FE244E91DC76C6D005230BF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE244E71DC76C6D005230BF /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3FE244EA1DC76C6E005230BF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE244E81DC76C6D005230BF /* MainViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		3FEC5A671DC2EBB200C39CB4 /* ZWCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC5A661DC2EBB200C39CB4 /* ZWCollectionViewFlowLayout.m */; settings = {ASSET_TAGS = (); }; };
 		3FEC5A6D1DC2EBBE00C39CB4 /* DataBaseBySelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC5A6A1DC2EBBE00C39CB4 /* DataBaseBySelf.m */; settings = {ASSET_TAGS = (); }; };
 		3FEC5A6E1DC2EBBE00C39CB4 /* DataBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC5A6C1DC2EBBE00C39CB4 /* DataBaseModel.m */; settings = {ASSET_TAGS = (); }; };
@@ -514,6 +516,9 @@
 		3FE244BF1DC762EC005230BF /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
 		3FE244C01DC762EC005230BF /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
 		3FE244C11DC762EC005230BF /* CategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
+		3FE244E61DC76C6D005230BF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3FE244E71DC76C6D005230BF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3FE244E81DC76C6D005230BF /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		3FEC5A651DC2EBB200C39CB4 /* ZWCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCollectionViewFlowLayout.h; sourceTree = "<group>"; };
 		3FEC5A661DC2EBB200C39CB4 /* ZWCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		3FEC5A691DC2EBBE00C39CB4 /* DataBaseBySelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseBySelf.h; sourceTree = "<group>"; };
@@ -1185,6 +1190,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+
 		3F26C68D1DC0AE8600A0EDD4 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -1348,6 +1354,7 @@
 			name = "Nav+TabBer";
 			sourceTree = "<group>";
 		};
+
 		3F9474921DC1EA1800CA2F8D /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -1395,6 +1402,13 @@
 				3F9ABAFF1DC4C21B009B211A /* LaunViewController.m */,
 			);
 			name = start;
+			sourceTree = "<group>";
+		};
+		3FE244EE1DC7718F005230BF /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 		3FEC5A631DC2EB3B00C39CB4 /* New  */ = {
@@ -1926,6 +1940,7 @@
 				3F0BCC4B1DC77F5800D54007 /* MineTableViewCell.xib in Resources */,
 				3FEC5C6A1DC36BCD00C39CB4 /* StrTableViewCell.xib in Resources */,
 				3FEC5BFC1DC34F7F00C39CB4 /* UMSCommentDetailController.xib in Resources */,
+
 				3FEC5C021DC34F7F00C39CB4 /* UMSnsAccountViewController.xib in Resources */,
 				3FEC5C011DC34F7F00C39CB4 /* UMSLoginViewController.xib in Resources */,
 				3F0BCBDD1DC77D3400D54007 /* collect1.png in Resources */,
@@ -2116,6 +2131,7 @@
 				3F26C6C91DC0B12E00A0EDD4 /* MJRefreshComponent.m in Sources */,
 				3F26C6CD1DC0B12E00A0EDD4 /* MJRefreshAutoNormalFooter.m in Sources */,
 				3FEC5C511DC36BCD00C39CB4 /* FindDetailViewController.m in Sources */,
+				3FE244E91DC76C6D005230BF /* MainViewController.m in Sources */,
 				3F9474A41DC1EA1800CA2F8D /* UIImage+Image.m in Sources */,
 				3FEC5ACA1DC2FE8500C39CB4 /* DDHNavigationControllerDelegate.m in Sources */,
 				3FEC5C5D1DC36BCD00C39CB4 /* TitleImageModel.m in Sources */,
