@@ -114,7 +114,6 @@
 //加载tableView
 - (void)initTableView{
     self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight-64) style:UITableViewStylePlain];
-
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     self.tableView.contentInset = UIEdgeInsetsMake(EdgeInsetsHeight, 0, 0, 0);
@@ -292,22 +291,9 @@
         rect.origin.y = h-EdgeInsetsHeight;
         self.titleImage.frame = rect;
     }
-    
-    //设置导航栏随着滚动视图改变透明度
-    CGFloat alpha = (y+164)/100;
-    
-    if (alpha >= 1) {
         
-        //导航栏标题
-        UILabel *lab = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, ScreenWidth, 44)];
-        lab.text = self.subjectDic[@"title"];
-        lab.textAlignment = NSTextAlignmentCenter;
-        self.navigationItem.titleView = lab;
-    }else{
-        [self.navigationItem.titleView removeFromSuperview];
-    }
-    
-    [[[self.navigationController.navigationBar subviews] objectAtIndex:0] setAlpha:alpha];
+    //导航栏标题
+    self.navigationItem.title = self.subjectDic[@"title"];
 
 }
 
