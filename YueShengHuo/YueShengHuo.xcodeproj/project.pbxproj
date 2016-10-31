@@ -92,7 +92,6 @@
 		3FEC5AC61DC2FE7200C39CB4 /* DDHSnapPushAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC5ABE1DC2FE7200C39CB4 /* DDHSnapPushAnimator.m */; settings = {ASSET_TAGS = (); }; };
 		3FEC5AC71DC2FE7200C39CB4 /* DDHTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC5AC01DC2FE7200C39CB4 /* DDHTransitionAnimator.m */; settings = {ASSET_TAGS = (); }; };
 		3FEC5ACA1DC2FE8500C39CB4 /* DDHNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC5AC91DC2FE8500C39CB4 /* DDHNavigationControllerDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		3FEC5B461DC301C400C39CB4 /* WeiboSDK.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC5B451DC301C400C39CB4 /* WeiboSDK.bundle */; };
 		3FEC5B481DC3021D00C39CB4 /* libSocialQQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC5B471DC3021D00C39CB4 /* libSocialQQ.a */; };
 		3FEC5B4A1DC3023500C39CB4 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC5B491DC3023500C39CB4 /* libc++.tbd */; };
 		3FEC5B4C1DC3024800C39CB4 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC5B4B1DC3024800C39CB4 /* libicucore.tbd */; };
@@ -411,7 +410,6 @@
 		3FEC5AC01DC2FE7200C39CB4 /* DDHTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHTransitionAnimator.m; sourceTree = "<group>"; };
 		3FEC5AC81DC2FE8500C39CB4 /* DDHNavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHNavigationControllerDelegate.h; sourceTree = "<group>"; };
 		3FEC5AC91DC2FE8500C39CB4 /* DDHNavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHNavigationControllerDelegate.m; sourceTree = "<group>"; };
-		3FEC5B451DC301C400C39CB4 /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
 		3FEC5B471DC3021D00C39CB4 /* libSocialQQ.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSocialQQ.a; path = UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/libSocialQQ.a; sourceTree = "<group>"; };
 		3FEC5B491DC3023500C39CB4 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		3FEC5B4B1DC3024800C39CB4 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
@@ -653,7 +651,6 @@
 				3FEC5C091DC34F7F00C39CB4 /* TencentOpenAPI.framework in Frameworks */,
 				3FEC5B4C1DC3024800C39CB4 /* libicucore.tbd in Frameworks */,
 				3FEC5B4A1DC3023500C39CB4 /* libc++.tbd in Frameworks */,
-				3FEC5B461DC301C400C39CB4 /* WeiboSDK.bundle in Frameworks */,
 				3FEC5A851DC2EC6F00C39CB4 /* libsqlite3.tbd in Frameworks */,
 				3F26C7181DC0B25400A0EDD4 /* CoreTelephony.framework in Frameworks */,
 				3FEC5C061DC34F7F00C39CB4 /* libWeiboSDK.a in Frameworks */,
@@ -712,7 +709,6 @@
 				3FEC5B4B1DC3024800C39CB4 /* libicucore.tbd */,
 				3FEC5B491DC3023500C39CB4 /* libc++.tbd */,
 				3FEC5B471DC3021D00C39CB4 /* libSocialQQ.a */,
-				3FEC5B451DC301C400C39CB4 /* WeiboSDK.bundle */,
 				3FEC5A841DC2EC6F00C39CB4 /* libsqlite3.tbd */,
 				3F26C7171DC0B25400A0EDD4 /* CoreTelephony.framework */,
 				3F26C7151DC0B24E00A0EDD4 /* CoreGraphics.framework */,

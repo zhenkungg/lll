@@ -39,7 +39,7 @@
         //设置源类型 因为新特性一般都是播放本地的小视频 所以设置源类型为file
         _moviePlayer.movieSourceType = MPMovieSourceTypeFile;
         //取消控制视图 如：播放暂停等
-        _moviePlayer.controlStyle = MPMovieControlStyleNone;
+        _moviePlayer.controlStyle =MPMovieControlStyleNone;
         [self.view addSubview:_moviePlayer.view];
         //监听播放完成
         [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(playFinsihed) name:MPMoviePlayerPlaybackDidFinishNotification object:nil];
