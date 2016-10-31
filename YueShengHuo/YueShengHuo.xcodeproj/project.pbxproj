@@ -71,6 +71,7 @@
 		3F9ABAFB1DC49A60009B211A /* V.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F9ABAFA1DC49A60009B211A /* V.mp4 */; settings = {ASSET_TAGS = (); }; };
 		3F9ABAFD1DC4A2B5009B211A /* 880.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F9ABAFC1DC4A2B5009B211A /* 880.gif */; settings = {ASSET_TAGS = (); }; };
 		3F9ABB001DC4C21B009B211A /* LaunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9ABAFF1DC4C21B009B211A /* LaunViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3FE2448E1DC74815005230BF /* WeiboSDK.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC5BA91DC34F7F00C39CB4 /* WeiboSDK.bundle */; };
 		3FEC5A671DC2EBB200C39CB4 /* ZWCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC5A661DC2EBB200C39CB4 /* ZWCollectionViewFlowLayout.m */; settings = {ASSET_TAGS = (); }; };
 		3FEC5A6D1DC2EBBE00C39CB4 /* DataBaseBySelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC5A6A1DC2EBBE00C39CB4 /* DataBaseBySelf.m */; settings = {ASSET_TAGS = (); }; };
 		3FEC5A6E1DC2EBBE00C39CB4 /* DataBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC5A6C1DC2EBBE00C39CB4 /* DataBaseModel.m */; settings = {ASSET_TAGS = (); }; };
@@ -622,6 +623,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE2448E1DC74815005230BF /* WeiboSDK.bundle in Frameworks */,
 				3FEC5B481DC3021D00C39CB4 /* libSocialQQ.a in Frameworks */,
 				3FEC5B501DC3026F00C39CB4 /* ShareSDK.framework in Frameworks */,
 				3FEC5B5A1DC303A800C39CB4 /* MOBFoundation.framework in Frameworks */,
@@ -2033,6 +2035,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/YueShengHuo/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
@@ -2066,6 +2069,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/YueShengHuo/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
